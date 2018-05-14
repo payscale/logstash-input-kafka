@@ -1,3 +1,7 @@
+# PayScale #
+
+We are working off the version 2.x branch. In order for kafka offsets to correctly commit we need to be using version .8 of the kafka consumer api, while being compatible with logstash 5.6.x.
+
 # Logstash Plugin
 
 [![Travis Build Status](https://travis-ci.org/logstash-plugins/logstash-input-kafka.svg)](https://travis-ci.org/logstash-plugins/logstash-input-kafka)
